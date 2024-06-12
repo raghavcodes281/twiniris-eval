@@ -1,0 +1,60 @@
+[
+    {
+      "type": "Feature",
+      "properties": {
+        "soilType": "Loam",
+        "description": "Loam is considered ideal for gardening and agricultural uses because it retains nutrients well and retains water while still allowing excess water to drain away."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-122.68, 45.51],
+            [-122.43, 45.51],
+            [-122.43, 45.65],
+            [-122.68, 45.65],
+            [-122.68, 45.51]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "soilType": "Clay",
+        "description": "Clay soils are known for their high nutrients and moisture retaining ability but have poorer drainage."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-122.84, 45.54],
+            [-122.74, 45.54],
+            [-122.74, 45.59],
+            [-122.84, 45.59],
+            [-122.84, 45.54]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "soilType": "Sandy",
+        "description": "Sandy soil has large particles and drains quickly but does not hold nutrients well."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-122.77, 45.61],
+            [-122.67, 45.61],
+            [-122.67, 45.66],
+            [-122.77, 45.66],
+            [-122.77, 45.61]
+          ]
+        ]
+      }
+    }
+  ]
+  
