@@ -6,3 +6,9 @@ This project demonstrates how to determine the soil type at a specific geographi
 
 1 Run npm install for the dependencies
 2 Run node getsoiltype.js
+
+## PREQUISITES
+
+1 Need MongoDB installed in your environment
+2 Import the JSON data in your DB
+3 Create a 2dsphere index for the field Geometry
