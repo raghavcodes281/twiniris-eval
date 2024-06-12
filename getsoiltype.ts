@@ -26,6 +26,11 @@ async function findSoilType(db, point) {
 
     const soilTypes = db.collection('soiltypes'); // Accessing the 'soiltypes' collection.
 
+    //Since I have already created a 2dsphere index in my compass ui
+    //If you want to create the 2dsphere index via code then uncomment the below line
+    
+    //db.collection('soiltypes').createIndex({ geometry: "2dsphere" });
+
     try {
         // Performing a geospatial query to find documents where the geometry intersects with the given point.
         const result = await soilTypes.findOne({
